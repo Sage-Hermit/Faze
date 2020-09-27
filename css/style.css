@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(255, 228, 96), rgb(255, 163, 195));
+    font-family: Montserrat, sans-serif;
+    color: aliceblue;
+}
+
+.major {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons a {
+    text-decoration: none;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+}
+.major img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(255, 163, 195);
+    margin: 20px auto;
+}
+
+.buttons a:hover {
+    background: linear-gradient(to right, rgb(255, 228, 96), rgb(255, 163, 195));
+}
+
+.video {
+    margin: 50px auto;
+    text-align: center;
+    width: 350px;
+}
+
+.letter {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .letter:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    color: lightcoral;
+  }
+
+.lit {
+    height: 200px;
+    width: 300px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.vid-topic {
+    text-align: center;
+}
+.video img {
+    height: 300px;
+    width: 300px;
+}
